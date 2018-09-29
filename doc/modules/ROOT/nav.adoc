@@ -18,3 +18,10 @@
 ** xref:backend/architecture.adoc[Architecture]
 ** xref:backend/configuration.adoc[Configuration]
 * xref:simulation.adoc[Simulation]
+
+
+* Getting Started
+** xref:gettingstarted/setupide.adoc[Setup]
+** xref:gettingstarted/repository.adoc[Repository]
+** xref:gettingstarted/playbook.adoc[Playbook]
+** xref:gettingstarted/githubpages.adoc[GitHub Pages]
