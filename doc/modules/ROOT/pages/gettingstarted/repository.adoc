@@ -1,5 +1,4 @@
 = Repository
-
 :sectnums:
 :sectnumlevels: 4
 :toc:
@@ -30,7 +29,6 @@ IMPORTANT: dont forget to btn:[Push] the changes you have made
 Open your cloned folder with VS Code and create the folder structure and files for Antora.
 
 image::structureantora.png[Antora Folder Strucuture and Files]
-image::structure.png[Getting Started Structure and Files]
 
 NOTE: see Antora Structure Docs for https://docs.antora.org/antora/1.1/component-structure/[more icon:externallink[]]
 
@@ -39,11 +37,80 @@ NOTE: see Antora Structure Docs for https://docs.antora.org/antora/1.1/component
 
 to register your modules add the following content  to
 
-modules/ROOT/pages/_attributes.adoc in your repository folder and add
-image::navpages.png[]
-modules/ROOT/_attributes.adoc in your repository folder and add 
-image::attributis.png[]
+*modules/ROOT/pages/_attributes.adoc* in your repository folder and add
+
+image::navpages.png[Attributes]
+
+*modules/ROOT/_attributes.adoc in your repository folder and add* 
+
+image::attributis.png[Attributes]
 
 NOTE: see Antora Modules Docs for https://docs.antora.org/antora/1.0/modules/[more icon:externallink[]]
 
+=== Standard Page
 
+Antora uses the AsciiDoc files you have stored in your Repository to build the docs. Therefore it would be advisable to have a look at the AsciiDoc https://asciidoctor.org/docs/asciidoc-writers-guide/[Writers Guide icon:externallink[]].
+
+- Create a new .adoc file in your pages module
+- Add the title of the page on the first line
+- On the second and following lines add your metadata and attributes
+- Seperate the from the body block by at least one blank line
+- Write your content
+
+NOTE: The name you use when saving the file will be used to compute the page´s URL.
+
+*KEY POINTS TO REMEMBER*
+
+. The file must be saved in the pages directory of a module.
+
+. The file must be saved with the extension .adoc.
+
+. The file must be marked up with valid AsciiDoc.
+
+. The file must have a page title.
+
+*Getting Started Page from the http://openems.io/openems/latest/gettingstarted.html[OpenEMS Docs icon:externallink[]]:*
+
+image::examplepage.png[OpenEMS Getting Started]
+
+NOTE: see Antora Page Docs for https://docs.antora.org/antora/1.0/page/[more icon:external link[]]
+
+== Navigation File
+
+The Navigation File (modules/ROOT/nav.adoc) is responsible to set your Navigation Component on your Homepage.
+
+Example from OpenEMS:
+
+nav.adoc
+
+image::nav.png[OpenEMS NAV]
+
+Navigation Component
+
+image::lists2.png[Lists]
+
+You can create https://docs.antora.org/antora/1.1/navigation/list-structures/[Single or Multi lists icon:external link[]].
+
+NOTE: see Antora Navigation Docs for https://docs.antora.org/antora/1.1/navigation/[more icon:external link[]]
+
+== antora.yml
+
+Our Playbook Project will call *antora.yml* for the necessary information to fetch the .adoc files and build the html page.
+
+*KEY POINTS TO REMEMBER*
+
+The file hast to:
+
+. be located at the root of the documentation component.
+
+. be named antora.yml
+
+. be written in YAML
+
+. contain the required keys and values.
+
+Fill your antora.yml with the https://docs.antora.org/antora/1.0/component-descriptor/[required keys and values icon:external link[]]!
+
+This is the antora.yml of the Repository we are on:
+
+image::bocsyml.png[Bocs]

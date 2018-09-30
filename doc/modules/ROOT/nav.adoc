@@ -1,6 +1,6 @@
+* xref:gettingstarted/introduction[Introduction]
 * Getting Started
-** xref:gettingstarted/introduction[Introduction]
-** xref:gettingstarted/setupide.adoc[Setup]
+** xref:gettingstarted/setupide.adoc[IDE]
 ** xref:gettingstarted/repository.adoc[Repository]
 ** xref:gettingstarted/playbook.adoc[Playbook]
 ** xref:gettingstarted/githubpages.adoc[GitHub Pages]
