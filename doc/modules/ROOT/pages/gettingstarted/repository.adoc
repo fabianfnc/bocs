@@ -25,3 +25,25 @@ and press btn:[Clone].
 
 IMPORTANT: dont forget to btn:[Push] the changes you have made
 
+== Creating the Structure
+
+Open your cloned folder with VS Code and create the folder structure and files for Antora.
+
+image::structureantora.png[Antora Folder Strucuture and Files]
+image::structure.png[Getting Started Structure and Files]
+
+NOTE: see Antora Structure Docs for https://docs.antora.org/antora/1.1/component-structure/[more icon:externallink[]]
+
+== Creating the Content
+=== Attributes
+
+to register your modules add the following content  to
+
+modules/ROOT/pages/_attributes.adoc in your repository folder and add
+image::navpages.png[]
+modules/ROOT/_attributes.adoc in your repository folder and add 
+image::attributis.png[]
+
+NOTE: see Antora Modules Docs for https://docs.antora.org/antora/1.0/modules/[more icon:externallink[]]
+
+
