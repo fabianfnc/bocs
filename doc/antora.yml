@@ -1,6 +1,6 @@
 name: antoratest
 title: Antora Test Docs Site
 version: latest
-start_page: ROOT:gettingstarted/setupide.adoc
+start_page: ROOT:gettingstarted/introduction.adoc
 nav:
 - modules/ROOT/nav.adoc

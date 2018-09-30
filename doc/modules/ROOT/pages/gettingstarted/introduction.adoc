@@ -1,0 +1,38 @@
+= Introduction 
+
+:sectnums:
+:sectnumlevels: 4
+:toc:
+:toclevels: 4
+:experimental:
+:keywords: AsciiDoc
+:source-highlighter: highlight.js
+:icons: font
+
+The Getting Started Guide consists of three parts.
+
+. Setup IDE
+. Create Repository
+. Create Playbook Project
+
+== Basic Overview
+
+To build your html docs page with Antora you need a Repository and a Playbook Project where the docs will be created.
+
+Antora will fetch the necessary files (antora.yml, adoc files ..) out of your Playbook Project and create a html Site out of it.
+
+NOTE: In this Guide we are going to have The Playbook Project inside the Repository for better traceability.
+
+https://pages.github.com/[GitHub Pages icon:external-link[]] will be used to serve our created example docs.
+
+== Useful Links
+
+https://github.com/fabianfnc/bocs[Example Repository + Playbook where we are in icon:external link[]]
+
+https://antora.org/[Antora Info Site icon:external link[]]
+
+https://docs.antora.org/antora/1.1/[Antora Docs icon:external link[]]
+
+https://gitlab.com/antora[Antora GitLab Projects icon:external link[]]
+
+http://asciidoc.org/[AsciiDoc Info Site icon:external link[]]

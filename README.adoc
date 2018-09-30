@@ -1,4 +1,6 @@
 = Antora Repository Example
 
-This is an example Repository to build a Documentation html Page with Antora.
+This is an example Repository with Playbook Project to build a Documentation html Page with Antora.
+
+The Getting Started can be found here https://fabianfnc.github.io/bocs/[here].
 
