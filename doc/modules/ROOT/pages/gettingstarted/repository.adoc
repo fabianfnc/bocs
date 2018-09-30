@@ -8,6 +8,8 @@
 :source-highlighter: highlight.js
 :icons: font
 
+== Preparation
+
 - Go to https://github.com/[GitHub icon:external link[]] and create a new repository
 
 NOTE: we are using https://www.sourcetreeapp.com/[Sourctree by Atlassian icon:external-link[]] in this guide.

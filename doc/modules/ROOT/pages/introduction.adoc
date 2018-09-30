@@ -30,7 +30,7 @@ https://pages.github.com/[GitHub Pages icon:external-link[]] will be used to ser
 
 == Useful Links
 
-https://github.com/fabianfnc/bocs[Example Repository + Playbook where we are in icon:external link[]]
+https://github.com/fabianfnc/bocs[Example Repository + Playbook where we are on icon:external link[]]
 
 https://github.com/OpenEMS/openems/tree/develop/doc[OpenEMS Repository which is also using Antora icon:external link[]]
 

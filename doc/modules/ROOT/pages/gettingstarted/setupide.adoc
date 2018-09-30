@@ -31,4 +31,8 @@ NOTE: This will also be our Playbook Folder
 - Open VS Code
 - Create a new folder and open it
 - Open the VS Code Terminal (strg + ö)
-- type: npm i -g npm i -g @antora/cli + @antora/site-generator-default
+- type: 
+. npm i -g @antora/cli
+. npm i -g @antora/site-generator-default
+
+next: xref:repository.adoc[Setup your Repository]
