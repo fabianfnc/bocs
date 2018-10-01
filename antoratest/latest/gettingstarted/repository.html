@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repository :: Antora Test Docs Site</title>
+    <link rel="canonical" href="https://fabianfnc.github.io/bocs/antoratest/latest/gettingstarted/repository.html">
+    <meta name="keywords" content="AsciiDoc">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="icon" href="../../../_/img/feneco.ico" type="image/x-icon">
+<link rel="stylesheet" href="../../../_/css/vendor/docsearch.min.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar" color="#2d8fab">
+    <div class="navbar-brand">
+      <a class="navbar-item">Antora Test Docs Site</a>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+      </div>
+    </div>
+  </nav>
+</header><div class="main-wrapper">
+<div class="navigation-container" data-component="antoratest" data-version="latest">
+  <aside class="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../introduction.html">Antora Test Docs Site</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../introduction.html">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-toggle"></button>
+    <span class="nav-text">Getting Started</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="setupide.html">IDE</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="repository.html">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="playbook.html">Playbook</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="githubpages.html">GitHub Pages</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Antora Test Docs Site</span>
+    <span class="version">latest</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Antora Test Docs Site</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../introduction.html">latest</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+  <a href="../introduction.html" class="home-link"></a>
+<nav class="crumbs" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="../introduction.html">Antora Test Docs Site</a></li>
+    <li class="crumb">Getting Started</li>
+    <li class="crumb"><a href="repository.html">Repository</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/fabianfnc/bocs/edit/master/doc/modules/ROOT/pages/gettingstarted/repository.adoc">Edit this Page</a></div>
+</div>
+<article class="doc">
+<h1>Repository</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_preparation">1. Preparation</a></li>
+<li><a href="#_creating_the_structure">2. Creating the Structure</a></li>
+<li><a href="#_creating_the_content">3. Creating the Content</a>
+<ul class="sectlevel2">
+<li><a href="#_attributes">3.1. Attributes</a></li>
+<li><a href="#_standard_page">3.2. Standard Page</a></li>
+</ul>
+</li>
+<li><a href="#_navigation_file">4. Navigation File</a></li>
+<li><a href="#_antora_yml">5. antora.yml</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_preparation"><a class="anchor" href="#_preparation"></a>1. Preparation</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Go to <a href="https://github.com/">GitHub <span class="icon"><i class="fa fa-external link"></i></span></a> and create a new repository</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+we are using <a href="https://www.sourcetreeapp.com/">Sourctree by Atlassian <span class="icon"><i class="fa fa-external-link"></i></span></a> in this guide.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Open Source Tree</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>press <b class="button">File</b> &#8594; <b class="button">Clone</b></p>
+</div>
+<div class="paragraph">
+<p>enter your git repository path</p>
+</div>
+<div class="paragraph">
+<p>select a target directory</p>
+</div>
+<div class="paragraph">
+<p>and press <b class="button">Clone</b>.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+dont forget to <b class="button">Push</b> the changes you have made
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_creating_the_structure"><a class="anchor" href="#_creating_the_structure"></a>2. Creating the Structure</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Open your cloned folder with VS Code and create the folder structure and files for Antora.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/structureantora.png" alt="Antora Folder Strucuture and Files">
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+see Antora Structure Docs for <a href="https://docs.antora.org/antora/1.1/component-structure/">more <span class="icon"><i class="fa fa-externallink"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_creating_the_content"><a class="anchor" href="#_creating_the_content"></a>3. Creating the Content</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_attributes"><a class="anchor" href="#_attributes"></a>3.1. Attributes</h3>
+<div class="paragraph">
+<p>to register your modules add the following content  to</p>
+</div>
+<div class="paragraph">
+<p><strong>modules/ROOT/pages/_attributes.adoc</strong> in your repository folder and add</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/navpages.png" alt="Attributes">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>modules/ROOT/_attributes.adoc in your repository folder and add</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/attributis.png" alt="Attributes">
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+see Antora Modules Docs for <a href="https://docs.antora.org/antora/1.0/modules/">more <span class="icon"><i class="fa fa-externallink"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_standard_page"><a class="anchor" href="#_standard_page"></a>3.2. Standard Page</h3>
+<div class="paragraph">
+<p>Antora uses the AsciiDoc files you have stored in your Repository to build the docs. Therefore it would be advisable to have a look at the AsciiDoc <a href="https://asciidoctor.org/docs/asciidoc-writers-guide/">Writers Guide <span class="icon"><i class="fa fa-externallink"></i></span></a>
+and <a href="https://powerman.name/doc/asciidoc">AsciiDoc Cheatsheet <span class="icon"><i class="fa fa-external link"></i></span></a>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Create a new .adoc file in your pages module</p>
+</li>
+<li>
+<p>Add the title of the page on the first line</p>
+</li>
+<li>
+<p>On the second and following lines add your metadata and attributes</p>
+</li>
+<li>
+<p>Seperate the from the body block by at least one blank line</p>
+</li>
+<li>
+<p>Write your content</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The name you use when saving the file will be used to compute the page´s URL.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>KEY POINTS TO REMEMBER</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The file must be saved in the pages directory of a module.</p>
+</li>
+<li>
+<p>The file must be saved with the extension .adoc.</p>
+</li>
+<li>
+<p>The file must be marked up with valid AsciiDoc.</p>
+</li>
+<li>
+<p>The file must have a page title.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Getting Started Page from the <a href="http://openems.io/openems/latest/gettingstarted.html">OpenEMS Docs <span class="icon"><i class="fa fa-externallink"></i></span></a>:</strong></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/examplepage.png" alt="OpenEMS Getting Started">
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+see Antora Page Docs for <a href="https://docs.antora.org/antora/1.0/page/">more <span class="icon"><i class="fa fa-external link"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_navigation_file"><a class="anchor" href="#_navigation_file"></a>4. Navigation File</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Navigation File (modules/ROOT/nav.adoc) is responsible to set your Navigation Component on your Homepage.</p>
+</div>
+<div class="paragraph">
+<p>Example from OpenEMS:</p>
+</div>
+<div class="paragraph">
+<p>nav.adoc</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/nav.png" alt="OpenEMS NAV">
+</div>
+</div>
+<div class="paragraph">
+<p>Navigation Component</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/lists2.png" alt="Lists">
+</div>
+</div>
+<div class="paragraph">
+<p>You can create <a href="https://docs.antora.org/antora/1.1/navigation/list-structures/">Single or Multi lists <span class="icon"><i class="fa fa-external link"></i></span></a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+see Antora Navigation Docs for <a href="https://docs.antora.org/antora/1.1/navigation/">more <span class="icon"><i class="fa fa-external link"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_antora_yml"><a class="anchor" href="#_antora_yml"></a>5. antora.yml</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Our Playbook Project will call <strong>antora.yml</strong> for the necessary information to fetch the .adoc files and build the html page.</p>
+</div>
+<div class="paragraph">
+<p><strong>KEY POINTS TO REMEMBER</strong></p>
+</div>
+<div class="paragraph">
+<p>The file hast to:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>be located at the root of the documentation component.</p>
+</li>
+<li>
+<p>be named antora.yml</p>
+</li>
+<li>
+<p>be written in YAML</p>
+</li>
+<li>
+<p>contain the required keys and values.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Fill your antora.yml with the <a href="https://docs.antora.org/antora/1.0/component-descriptor/">required keys and values <span class="icon"><i class="fa fa-external link"></i></span></a>!</p>
+</div>
+<div class="paragraph">
+<p>This is the antora.yml of the Repository we are on:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/bocsyml.png" alt="Bocs">
+</div>
+</div>
+<div class="paragraph">
+<p>&#8658; next: <a href="playbook.html" class="page">Create Playbook Project</a></p>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<script src="../../../_/js/site.js"></script>
+<script src="../../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>
