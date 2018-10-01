@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Project :: Antora Test Docs Site</title>
+    <link rel="canonical" href="https://fabianfnc.github.io/bocs/antoratest/latest/gettingstarted/playbook.html">
+    <meta name="keywords" content="AsciiDoc">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="icon" href="../../../_/img/feneco.ico" type="image/x-icon">
+<link rel="stylesheet" href="../../../_/css/vendor/docsearch.min.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar" color="#2d8fab">
+    <div class="navbar-brand">
+      <a class="navbar-item">Antora Test Docs Site</a>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+      </div>
+    </div>
+  </nav>
+</header><div class="main-wrapper">
+<div class="navigation-container" data-component="antoratest" data-version="latest">
+  <aside class="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../introduction.html">Antora Test Docs Site</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../introduction.html">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-toggle"></button>
+    <span class="nav-text">Getting Started</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="setupide.html">IDE</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository.html">Repository</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="playbook.html">Playbook</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="githubpages.html">GitHub Pages</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Antora Test Docs Site</span>
+    <span class="version">latest</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Antora Test Docs Site</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../introduction.html">latest</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+  <a href="../introduction.html" class="home-link"></a>
+<nav class="crumbs" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="../introduction.html">Antora Test Docs Site</a></li>
+    <li class="crumb">Getting Started</li>
+    <li class="crumb"><a href="playbook.html">Playbook</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/fabianfnc/bocs/edit/master/doc/modules/ROOT/pages/gettingstarted/playbook.adoc">Edit this Page</a></div>
+</div>
+<article class="doc">
+<h1>Playbook Project</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_create_your_playbook_project">1. Create your Playbook Project</a>
+<ul class="sectlevel2">
+<li><a href="#_install_antora">1.1. Install Antora</a></li>
+<li><a href="#_fill_your_site_yml">1.2. fill your site.yml</a></li>
+<li><a href="#_ui_bundle">1.3. UI-Bundle</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_create_your_playbook_project"><a class="anchor" href="#_create_your_playbook_project"></a>1. Create your Playbook Project</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+see Antora Playbook Schema Docs for <a href="https://docs.antora.org/antora/1.0/playbook/playbook-schema/">more <span class="icon"><i class="fa fa-externallink"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_install_antora"><a class="anchor" href="#_install_antora"></a>1.1. Install Antora</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a new folder and switch to it in VS Code</p>
+</li>
+<li>
+<p>Type in VS Code - Terminal (strg + ö)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>npm i -g @antora/cli</p>
+</li>
+<li>
+<p>npm i -g @antora/site-generator-default</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Create your Playbook file:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>new file: <strong>site.yml</strong></p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_fill_your_site_yml"><a class="anchor" href="#_fill_your_site_yml"></a>1.2. fill your site.yml</h3>
+<div class="paragraph">
+<p><strong>Basic Information</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>site</p>
+<div class="ulist">
+<ul>
+<li>
+<p>title &#8658; sets the title of your docs page</p>
+</li>
+<li>
+<p>url &#8658; sets base url of published site</p>
+</li>
+<li>
+<p>start_page &#8658; sets the index page of your site</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>content</p>
+<div class="ulist">
+<ul>
+<li>
+<p>url &#8658; url of the content Antora is fetching</p>
+</li>
+<li>
+<p>branches &#8658; branch where your Antora structure is set</p>
+</li>
+<li>
+<p>start_path &#8658; if your antora structure is set in a folder</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>ui</p>
+<div class="ulist">
+<ul>
+<li>
+<p>url &#8658; URL of the UI Bundle Antora is fetching</p>
+</li>
+<li>
+<p>snapshot &#8658; indicates wheter the URL points to a Snapshot</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+you can use local content to fetch too! see Antora Content Sources Docs for <a href="https://docs.antora.org/antora/1.0/playbook/configure-content-sources/">more <span class="icon"><i class="fa fa-external link"></i></span></a>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This is the site.yml we are using to build the docs we are currently visiting:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/siteymlbocs.png" alt="BOCS site.yml">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ui_bundle"><a class="anchor" href="#_ui_bundle"></a>1.3. UI-Bundle</h3>
+<div class="paragraph">
+<p>Anotra needs a UI Bundle to build your html page.</p>
+</div>
+<div class="paragraph">
+<p>I already have created a simple <a href="https://github.com/fabianfnc/bocs/blob/master/doc/uibundle.zip">UI-Bundle <span class="icon"><i class="fa fa-external link"></i></span></a> that you can use.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If you want to adjust your UI just download it, make your changes, save it as a zip file and push it to your Repository
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>&#8658; next: <a href="githubpages.html" class="page">Generate and serve it</a></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<script src="../../../_/js/site.js"></script>
+<script src="../../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>

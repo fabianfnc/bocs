@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate and Serve :: Antora Test Docs Site</title>
+    <link rel="canonical" href="https://fabianfnc.github.io/bocs/antoratest/latest/gettingstarted/githubpages.html">
+    <meta name="keywords" content="AsciiDoc">
+    <meta name="generator" content="Antora 1.1.1">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+<link rel="icon" href="../../../_/img/feneco.ico" type="image/x-icon">
+<link rel="stylesheet" href="../../../_/css/vendor/docsearch.min.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar" color="#2d8fab">
+    <div class="navbar-brand">
+      <a class="navbar-item">Antora Test Docs Site</a>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+      </div>
+    </div>
+  </nav>
+</header><div class="main-wrapper">
+<div class="navigation-container" data-component="antoratest" data-version="latest">
+  <aside class="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../introduction.html">Antora Test Docs Site</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../introduction.html">Introduction</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-toggle"></button>
+    <span class="nav-text">Getting Started</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="setupide.html">IDE</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="repository.html">Repository</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="playbook.html">Playbook</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="githubpages.html">GitHub Pages</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Antora Test Docs Site</span>
+    <span class="version">latest</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Antora Test Docs Site</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../introduction.html">latest</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+  <a href="../introduction.html" class="home-link"></a>
+<nav class="crumbs" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="../introduction.html">Antora Test Docs Site</a></li>
+    <li class="crumb">Getting Started</li>
+    <li class="crumb"><a href="githubpages.html">GitHub Pages</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/fabianfnc/bocs/edit/master/doc/modules/ROOT/pages/gettingstarted/githubpages.adoc">Edit this Page</a></div>
+</div>
+<article class="doc">
+<h1>Generate and Serve</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_generate_your_site">1. Generate your site</a></li>
+<li><a href="#_serve_it">2. Serve it</a></li>
+<li><a href="#_finished">3. Finished</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+We are still inside our Playbook Project/Folder with VS Code
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_generate_your_site"><a class="anchor" href="#_generate_your_site"></a>1. Generate your site</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>to generate your site type</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>antora site.yml</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>and your docs should be generated in a few seconds.</p>
+</div>
+<div class="paragraph">
+<p>You can find your generated site in the build/site folder.</p>
+</div>
+<div class="paragraph">
+<p>important: If you are changing sources/ui and your Antora won&#8217;t build properly after, try: antora site.yml --pull. This will reset your cache.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_serve_it"><a class="anchor" href="#_serve_it"></a>2. Serve it</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We are going to use GitHub Pages to serve our Docs Page.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to your Repository on GitHub</p>
+</li>
+<li>
+<p>click on Settings</p>
+</li>
+<li>
+<p>scroll down to GitHub Pages</p>
+</li>
+<li>
+<p>choose your source (master) and save</p>
+</li>
+<li>
+<p>push your built html site folder (build/site/) to your created Repository</p>
+</li>
+<li>
+<p>push an empty .nojekyll file to your Repository  (necessary for GitHub Pages)</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Visit <a href="https://pages.github.com/">GitHub Pages <span class="icon"><i class="fa fa-external link"></i></span></a> for more
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_finished"><a class="anchor" href="#_finished"></a>3. Finished</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Congratulations! You are done!</p>
+</div>
+<div class="paragraph">
+<p>you can see your created page on your GitHub Pages - Page (<a href="https://username.github.io." class="bare">https://username.github.io.</a>)</p>
+</div>
+<div class="paragraph">
+<p>In the case of this Documentation Site: <a href="https://fabianfnc.github.io/bocs/" class="bare">https://fabianfnc.github.io/bocs/</a></p>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<script src="../../../_/js/site.js"></script>
+<script src="../../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+  </body>
+</html>
