@@ -1,4 +1,4 @@
-* xref:gettingstarted/introduction[Introduction]
+* xref:introduction.adoc[Introduction]
 * Getting Started
 ** xref:gettingstarted/setupide.adoc[IDE]
 ** xref:gettingstarted/repository.adoc[Repository]

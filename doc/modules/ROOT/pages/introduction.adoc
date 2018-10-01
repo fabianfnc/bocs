@@ -16,7 +16,7 @@ There are four parts to do
 . xref:gettingstarted/setupide.adoc[Setup the IDE]
 . xref:gettingstarted/repository.adoc[Create Repository]
 . xref:gettingstarted/playbook.adoc[Create Playbook Project]
-. xref:gettingstarted/githubpages.adoc[Build and serve it]
+. xref:gettingstarted/githubpages.adoc[Generate and serve it]
 
 
 == Basic Overview

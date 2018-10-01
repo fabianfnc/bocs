@@ -53,4 +53,4 @@ I already have created a simple https://github.com/fabianfnc/bocs/blob/master/do
 
 NOTE: If you want to adjust your UI just download it, make your changes, save it as a zip file and push it to your Repository
 
-=> next: xref:gettingstarted/githubpages.adoc[Build and serve it]
+=> next: xref:gettingstarted/githubpages.adoc[Generate and serve it]
