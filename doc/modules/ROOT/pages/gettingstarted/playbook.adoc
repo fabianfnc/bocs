@@ -7,3 +7,50 @@
 :keywords: AsciiDoc
 :source-highlighter: highlight.js
 :icons: font
+
+== Create your Playbook Project
+
+NOTE: see Antora Playbook Schema Docs for https://docs.antora.org/antora/1.0/playbook/playbook-schema/[more icon:externallink[]]
+
+=== Install Antora
+. Create a new folder and switch to it in VS Code
+. Type in VS Code - Terminal (strg + ö) 
+
+- npm i -g @antora/cli
+- npm i -g @antora/site-generator-default
+
+. Create your Playbook file:
+
+- new file: *site.yml*
+
+=== fill your site.yml
+
+*Basic Information*
+
+. site
+- title => sets the title of your docs page
+- url => sets base url of published site
+- start_page => sets the index page of your site
+. content
+- url => url of the content Antora is fetching
+- branches => branch where your Antora structure is set
+- start_path => if your antora structure is set in a folder
+. ui
+- url => URL of the UI Bundle Antora is fetching
+- snapshot => indicates wheter the URL points to a Snapshot
+
+NOTE: you can use local content to fetch too! see Antora Content Sources Docs for https://docs.antora.org/antora/1.0/playbook/configure-content-sources/[more icon:external link[]]
+
+This is the site.yml we are using to build the docs we are currently visiting:
+
+image::siteymlbocs.png[BOCS site.yml]
+
+=== UI-Bundle
+
+Anotra needs a UI Bundle to build your html page.
+
+I already have created a simple https://github.com/fabianfnc/bocs/blob/master/doc/uibundle.zip[UI-Bundle icon:external link[]] that you can use.
+
+NOTE: If you want to adjust your UI just download it, make your changes, save it as a zip file and push it to your Repository
+
+=> next: xref:gettingstarted/githubpages.adoc[Build and serve it]

@@ -35,4 +35,4 @@ NOTE: This will be our Playbook Folder
 . npm i -g @antora/cli
 . npm i -g @antora/site-generator-default
 
-next: xref:repository.adoc[Setup your Repository]
+=> next: xref:gettingstarted/repository.adoc[Create Repository]

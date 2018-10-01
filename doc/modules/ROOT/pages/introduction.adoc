@@ -13,10 +13,11 @@ This Getting Started is a small guide to setup your own Docs Page using Antora a
 
 There are four parts to do
 
-. Setup the IDE
-. Create Repository
-. Create Playbook Project
-. Serve it via GitHub Pages
+. xref:gettingstarted/setupide.adoc[Setup the IDE]
+. xref:gettingstarted/repository.adoc[Create Repository]
+. xref:gettingstarted/playbook.adoc[Create Playbook Project]
+. xref:gettingstarted/githubpages.adoc[Build and serve it]
+
 
 == Basic Overview
 
@@ -27,6 +28,8 @@ Antora will fetch the necessary files (antora.yml, adoc files ..) out of your Pl
 NOTE: In this Guide we are going to have The Playbook Project inside the Repository for better traceability.
 
 https://pages.github.com/[GitHub Pages icon:external-link[]] will be used to serve our created example docs.
+
+and now .. xref:gettingstarted/setupide.adoc[get started!]
 
 == Useful Links
 
@@ -40,4 +43,4 @@ https://docs.antora.org/antora/1.1/[Antora Docs icon:external link[]]
 
 https://gitlab.com/antora[Antora GitLab Projects icon:external link[]]
 
-http://asciidoc.org/[AsciiDoc Info Site icon:external link[]]
+http://asciidoc.org/[AsciiDoc Info Site icon:external link[]] 

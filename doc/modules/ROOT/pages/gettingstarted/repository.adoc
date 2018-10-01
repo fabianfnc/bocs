@@ -116,3 +116,5 @@ Fill your antora.yml with the https://docs.antora.org/antora/1.0/component-descr
 This is the antora.yml of the Repository we are on:
 
 image::bocsyml.png[Bocs]
+
+=> next: xref:gettingstarted/playbook.adoc[Create Playbook Project]
