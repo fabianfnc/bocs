@@ -30,7 +30,8 @@ We are going to use GitHub Pages to serve our Docs Page.
 . click on Settings
 . scroll down to GitHub Pages
 . choose your source (master) and save
-. push your built html site folder to your created Repository
+. push your built html site folder (build/site/) to your created Repository
+. push an empty .nojekyll file to your Repository  (necessary for GitHub Pages)
 
 NOTE: Visit https://pages.github.com/[GitHub Pages icon:external link[]] for more
 
