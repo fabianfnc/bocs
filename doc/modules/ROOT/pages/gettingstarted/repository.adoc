@@ -51,7 +51,8 @@ NOTE: see Antora Modules Docs for https://docs.antora.org/antora/1.0/modules/[mo
 
 === Standard Page
 
-Antora uses the AsciiDoc files you have stored in your Repository to build the docs. Therefore it would be advisable to have a look at the AsciiDoc https://asciidoctor.org/docs/asciidoc-writers-guide/[Writers Guide icon:externallink[]].
+Antora uses the AsciiDoc files you have stored in your Repository to build the docs. Therefore it would be advisable to have a look at the AsciiDoc https://asciidoctor.org/docs/asciidoc-writers-guide/[Writers Guide icon:externallink[]]
+and https://powerman.name/doc/asciidoc[AsciiDoc Cheatsheet icon:external link[]].
 
 - Create a new .adoc file in your pages module
 - Add the title of the page on the first line

@@ -25,14 +25,4 @@ Now you are able to select 'Open Preview to the Side' on the upper right side wh
 == NodeJS
 Get https://nodejs.org/en/[Node.js icon:external-link[]] and install it.
 
-== Install Antora
-NOTE: This will be our Playbook Folder
-
-- Open VS Code
-- Create a new folder and open it
-- Open the VS Code Terminal (strg + ö)
-- type: 
-. npm i -g @antora/cli
-. npm i -g @antora/site-generator-default
-
 => next: xref:gettingstarted/repository.adoc[Create Repository]
