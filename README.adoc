@@ -2,5 +2,5 @@
 
 This is an example Repository with Playbook Project to build a Documentation html Page with Antora.
 
-The Getting Started can be found here https://fabianfnc.github.io/bocs/[here].
+The Getting Started can be found https://fabianfnc.github.io/bocs/[here].
 
